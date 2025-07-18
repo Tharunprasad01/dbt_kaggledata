@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: kaggle_data
+    database: kaggle-dbt-project
+    schema: kaggle_data
+    tables:
+      - name: Adsinfo
